@@ -10,7 +10,7 @@ The application showcases a product listing page. The frontend makes HTTP reques
 
 Here is a screenshot of the final application showing products fetched from the API:
 
-![Product Listing Page](image_0.png)
+![Product Listing Page](Screenshot 2026-01-30 100232.png)
 
 ## Tech Stack
 
