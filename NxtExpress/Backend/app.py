@@ -4,7 +4,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# Add new JSON data
+# Adding new JSON data
 products = [
    
  {
@@ -79,8 +79,9 @@ products = [
  }
 ]
 
-@app.route('/products')
+@app.route('/products') #adding Route parth
 def get_products():
    return products
+
 
 app.run(debug=True)
