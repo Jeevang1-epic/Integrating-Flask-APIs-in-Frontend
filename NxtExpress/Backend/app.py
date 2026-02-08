@@ -79,9 +79,10 @@ products = [
  }
 ]
 
-@app.route('/products') #adding Route parth
+@app.route('/products') #adding Route parth, this is important as it should be used/add after local port, then we used this full link in js file.
 def get_products():
    return products
 
 
 app.run(debug=True)
+
