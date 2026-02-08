@@ -59,7 +59,7 @@
 .btn-shine {
     position: relative;
     overflow: hidden;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; /*keeping transition to all and 0.3 seconds*/
 }
 
 .btn-shine::after {
@@ -99,7 +99,7 @@
     to { transform: rotate(360deg); }
 }
 .animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite; /*for animation spin*/
 }
 
 .no-scrollbar::-webkit-scrollbar {
