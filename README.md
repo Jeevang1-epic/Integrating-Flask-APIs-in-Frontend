@@ -22,4 +22,4 @@ Here is a screenshot of the final application showing products fetched from the 
 1.  Clone the repository.
 2.  Navigate to the backend directory and install dependencies.
 3.  Run the Flask server.
-4.  Open the frontend HTML file in a web browser.
+4.  Open the frontend HTML file in a web browser( edge for example).
